@@ -86,9 +86,7 @@ const timeline = {
 
           if (user.uid == post.data().uid) {
             moreBtn = `<i class="material-icons">more_vert</i>`;
-          };
 
-          if (user.uid == post.data().uid) {
             cardReveal = `
             <div class="card-reveal" style="display: none; transform: translateY(0%);">
             <li class=" card-title">
@@ -130,7 +128,7 @@ const timeline = {
       <div class="card horizontal" style="overflow: visible;" data-uid="${post.data().uid}" data-id="${post.id}">
 
           <div class="card-image waves-effect waves-block waves-light">
-              <img src="${post.data().photo}">
+              <img src="${post.data().photo}" alt="user-pic">
           </div>
 
           <div class="card-content">
