@@ -11,6 +11,7 @@ const settings = {
     </section>
           `;
     },
+    
     after_render: () => { }
 };
 export default settings;

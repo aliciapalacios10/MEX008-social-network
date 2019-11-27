@@ -59,6 +59,7 @@ const shops = {
 
 /*Boilerplate map initialization code starts below: */
 
+
 //Step 1: initialize communication with the platform
    // Initialize the platform object:
    var platform = new H.service.Platform({
@@ -95,4 +96,5 @@ map.addObject(markers);
 
   }
 };
+
 export default shops;
